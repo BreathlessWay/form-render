@@ -1,15 +1,5 @@
 {
   "presets": [
     "react-app"
-  ],
-  "plugins": [
-    [
-      "import",
-      {
-        "libraryName": "antd-mobile",
-        "libraryDirectory": "es/components",
-        "style": false
-      }
-    ]
   ]
 }

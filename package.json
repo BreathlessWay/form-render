@@ -8,10 +8,10 @@
   "private": false,
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "prepare": "husky install",
     "release": "standard-version",
     "prepublishOnly": "npm run build",
     "deploy": "npm run release && git push --follow-tags origin main && npm publish --access public",
@@ -102,7 +102,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
-    "babel-plugin-import": "^1.13.5",
     "commitizen": "^4.2.4",
     "cz-customizable": "^6.3.0",
     "eslint-config-prettier": "^8.5.0",
