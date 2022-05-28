@@ -11,8 +11,10 @@ import {
 	Stepper,
 	Switch,
 } from 'antd-mobile';
+
 import dayjs from 'dayjs';
-import type { DatePickerRef } from 'antd-mobile/es/components/date-picker';
+
+import type { DatePickerRef } from 'antd-mobile/es/components/date-picker'
 
 export default () => {
 	const onFinish = (values: any) => {
