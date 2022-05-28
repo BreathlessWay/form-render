@@ -1,9 +1,19 @@
 {
-  "name": "form-render",
+  "name": "@breathlessway/form-render",
   "version": "0.0.1",
-  "description": "低代码表单生成组件",
-  "keywords": [],
-  "author": "",
+  "description": "基于antd-mobile的低代码表单生成组件",
+  "keywords": [
+    "react",
+    "react-dom",
+    "antd-mobile",
+    "form",
+    "lowcode"
+  ],
+  "author": {
+    "name": "BreathlessWay",
+    "email": "731005087@qq.com",
+    "url": "http://breathlessway.com/"
+  },
   "license": "MIT",
   "private": false,
   "main": "index.js",
